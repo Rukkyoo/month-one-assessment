@@ -24,7 +24,7 @@ This Terraform configuration provisions a highly available web application infra
 1.  **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Rukkyoo/month-one-assessment.git
     cd terraform-assessment
     ```
 
@@ -79,7 +79,6 @@ ssh -i <path-to-key.pem> ec2-user@<BASTION_PUBLIC_IP>
     ```bash
     ssh ec2-user@<PRIVATE_IP>
     ```
-    _Note: Password authentication is enabled. Default password: `qwerty12345` (Change immediately!)_
 
 ## Cleanup
 
